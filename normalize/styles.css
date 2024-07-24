@@ -1,0 +1,147 @@
+/* Name: Abhay Sunil
+   Student Number: [8975816] */
+
+   html {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1rem solid #ccc;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  footer {
+    font-size: 0.75rem;
+    background: linear-gradient(to right, #333, #666);
+    clear: both;
+  }
+  
+  main {
+    float: left;
+    width: 70%;
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  .biography, .image-section {
+    float: left;
+  }
+  
+  .biography {
+    width: 60%;
+  }
+  
+  .image-section {
+    width: 40%;
+  }
+  
+  .next-section {
+    clear: both;
+  }
+  
+  h1, h2, h3 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  q {
+    font-variant: italic;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', serif;
+    color: #666;
+    border: 2px solid #999;
+    box-shadow: 3px 3px 5px #aaa;
+  }
+  
+  figure, img, video {
+    border: 2px solid #666;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Verdana', sans-serif;
+    color: #444;
+  }
+  
+  aside h2 {
+    font-variant: normal;
+    color: #444;
+    text-align: center;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  ul li a:hover {
+    color: #ff3300;
+  }
+  
+  form label {
+    color: #333;
+    font-variant: normal;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  
+    main, aside {
+      float: none;
+      width: 100%;
+    }
+  
+    footer {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Accessibility */
+  body {
+    color: #333;
+    background-color: #fff;
+  }
+  
